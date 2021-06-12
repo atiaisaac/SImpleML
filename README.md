@@ -37,14 +37,15 @@ To use this library, clone the repo and add it to your arduino libraries folder.
 and run any of the examples given. This library has been made very easy that
 it can accept models with variable input and output sizes. All you have to do 
 is specify the sizes when instantiating the class. It returns
-the predictions as an array pointer hence the __*__ asterisk.
+the predictions as an array pointer.
 
 # Credit
 
-A big thank you to eloquent, without whom I would not be able to bring this to you.
+A big thank you to eloquentarduino, without whom I would not be able to bring this to you.
 
 # Note
 
-This library was originally compiled for ESP32, however it works right out the box
-on the rapberry pi pico as well and no special process was needed. 
-Hopefully it works right out the box for the other boards.
+This library was originally compiled for ESP32 by the original author,
+however it works right out the box on the rapberry pi pico as well 
+and no special process is needed. Hopefully it works right out the 
+box for the other boards.
